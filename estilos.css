@@ -1,0 +1,161 @@
+body{
+	font-family: Verdana, sans-serif;
+	color: #444;	
+	margin: 0px;
+	padding: 0px;
+	background-color:#FFFFFF;
+	font-size: 8pt;
+	line-height: 2.0;
+}
+
+.tverd {
+	color: #8BA074;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+a:link, a:visited{
+	color: #3273a1;
+	text-decoration: none;
+	border: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ff9c00;
+	border: 0;
+}
+
+.dprincipal {
+	position: absolute;
+	width: 750px;
+	left: 15px;
+	margin-left: 0px;
+}
+.dtopo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 750px;
+	height: 60px;
+	background-image: url("imagens/bkmenu.gif"); 
+}
+.dtopologo {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	width: 57px;
+	height: 45px;
+	z-index: 2;
+}
+
+.dtopotabs {
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+	z-index: 4;
+}
+.dverde {
+	position: absolute;
+	top: 75px;
+	left: 0;
+	width: 610px;
+	height: 192px;
+	background-image: url("imagens/bkverde.gif"); 
+	background-repeat: no-repeat;
+}
+.dazul {
+	position: absolute;
+	top: 75px;
+	left: 514px;
+	width: 295px;
+	height: 192px;
+	background-image: url("imagens/bkazul.gif"); 
+	background-repeat: no-repeat;
+}
+.damarelo {
+	position: absolute;
+	top: 285px;
+	left: 0px;
+	width: 610px;
+	height: 132px;
+	background-image: url("imagens/bkamarelo.gif"); 
+	background-repeat: no-repeat;
+}
+
+.fraseaspas {
+	text-align: right;
+	margin-top: 9px;
+}
+
+.bnoticias {
+	position: absolute;
+	top: 75px;
+	right: 0px;
+	width: 122px;
+	height: 340px;
+	background-image: url("imagens/bkcinza.gif"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.drodape {
+	position: absolute;
+	top: 430px;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.drodape2 {
+	position: absolute;
+	top: 700px;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.ma {
+	margin-top:8px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+	text-align: justify;
+}
+
+.barratitulo {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 610px;
+	height: 50px;
+	background-image: url("imagens/barra.gif"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+.dtitulo {
+	position:absolute;
+	top: -30px;
+	left: 0px;
+	margin-bottom: 10px;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #6D6D6D;
+	z-index: 20;
+}
+
+ul li {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url("imagens/ulli.gif");
+	line-height: 1.5em;
+}
+
+ul li:hover {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url("imagens/ulli2.gif");
+	line-height: 1.5em;
+}
